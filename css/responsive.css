@@ -1,0 +1,293 @@
+/************************ Global ************************************/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/****************** var *******************/
+:root {
+  --main-cl: #3b3b3b;
+  --ylw-cl: #ffbf00;
+  --red-cl: #ff999a;
+  --blue-cl: #6ed9eb;
+}
+/******************************** Small Devices ******************************/
+@media (min-width: 320px) and (max-width: 767px) {
+  /********** Start Header ************/
+  .Theader__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.5rem;
+  }
+  .Theader__menu,
+  .Theader__menu2 {
+    display: block;
+    font-size: 2rem;
+    color: var(--main-cl);
+    cursor: pointer;
+    transition: color 0.5s;
+  }
+  .Theader__menu:hover,
+  .Theader__menu2:hover {
+    color: var(--ylw-cl);
+  }
+  .Theader__lgtxt {
+    animation: colorate 6s ease-in-out infinite;
+  }
+  @keyframes colorate {
+    0%,
+    50%,
+    100% {
+      color: var(--ylw-cl);
+    }
+    25%,
+    75% {
+      color: var(--main-cl);
+    }
+  }
+  .Theader__navBar,
+  .Theader__fav {
+    display: none;
+  }
+  /********* End Header ************/
+  /********* Start Main ************/
+  /********* Main Home Flex ************/
+  .home__flex {
+    display: block;
+  }
+  .home__box {
+    width: 96%;
+    margin: 3rem auto;
+  }
+  .home__title {
+    font-size: 2rem;
+    padding: 1rem 1rem;
+  }
+  /********* Main Home Offers ************/
+  .offers__products {
+    display: block;
+  }
+  .offers__product--grow .offers__image {
+    width: 100%;
+  }
+  .offers__flex {
+    display: block;
+  }
+  .offers__icon {
+    font-size: 1.5rem;
+  }
+  /********* Main Architects ************/
+  .architects__flex {
+    height: 40rem;
+  }
+  .architects {
+    display: none; /* two chair images */
+  }
+  .architects__middel {
+    display: block;
+    width: 90%;
+  }
+  .architects__title {
+    font-size: 3rem;
+  }
+  /********* Main Blog ************/
+  .blog__txt {
+    display: none;
+  }
+  .blog__blogs {
+    display: block;
+  }
+  .blog__post {
+    width: calc(100% - 2rem);
+  }
+  .blog__link {
+    margin-top: -2rem;
+    font-size: 1rem;
+  }
+  /********* Main News ************/
+  .news__flex {
+    display: block;
+  }
+  .news__details {
+    padding: 1.5rem 0;
+  }
+  .news__prg1 {
+    font-size: 1.2rem;
+  }
+  .news__padding {
+    padding: 0;
+    margin: 3rem 0;
+  }
+  /********* Main Shipping ************/
+  .shipping__flex {
+    display: block;
+    padding: 1.5rem 0;
+  }
+  .shipping__selling {
+    margin: 1.5rem auto;
+    line-height: 1rem;
+  }
+  /********* End Main ************/
+  /********* Start Footer ************/
+  /********* Footer Flex ************/
+  .footer {
+    margin-top: 4rem;
+  }
+  .footer__flex {
+    display: block;
+  }
+  .footer__title {
+    margin-bottom: 2rem;
+  }
+  .footer__item {
+    margin-bottom: 1.5rem;
+  }
+  .footer__side {
+    padding-bottom: 5rem;
+  }
+  .footer__side:nth-child(2),
+  .footer__side:nth-child(4) {
+    width: 100%;
+  }
+  .footer__imglink {
+    width: 11rem;
+    height: 11rem;
+  }
+  /********* End Footer ************/
+}
+/******************************** Midium Devices ******************************/
+@media (min-width: 768px) and (max-width: 1030px) {
+  /********** Start Header ************/
+  .Theader__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.5rem;
+  }
+  .Theader__menu,
+  .Theader__menu2 {
+    display: block;
+    font-size: 2rem;
+    color: var(--main-cl);
+    cursor: pointer;
+    transition: color 0.5s;
+  }
+  .Theader__menu:hover,
+  .Theader__menu2:hover {
+    color: var(--ylw-cl);
+  }
+  .Theader__lgtxt {
+    animation: colorate 6s ease-in-out infinite;
+  }
+  @keyframes colorate {
+    0%,
+    50%,
+    100% {
+      color: var(--ylw-cl);
+    }
+    25%,
+    75% {
+      color: var(--main-cl);
+    }
+  }
+  .Theader__navBar,
+  .Theader__fav {
+    display: none;
+  }
+  /********* End Header ************/
+  /********* Start Main ************/
+  /********* Main Home Flex ************/
+  .home__flex {
+    display: block;
+  }
+  .home__box {
+    width: 96%;
+    margin: 3rem auto;
+  }
+  .home__title {
+    font-size: 4rem;
+    padding: 1rem 1rem;
+  }
+  /********* Main Home Offers ************/
+  .offers__products {
+    display: block;
+  }
+  .offers__product--grow .offers__image {
+    width: 100%;
+  }
+  .offers__flex {
+    display: block;
+  }
+  .offers__icon {
+    font-size: 1.5rem; /* add & delete padding above  */
+  }
+  /********* Main Architects ************/
+  .architects__flex {
+    height: 60rem;
+  }
+  .architects {
+    display: none; /* 2 img */
+  }
+  .architects__middel {
+    display: block;
+    width: 90%;
+  }
+  .architects__title {
+    font-size: 3rem;
+  }
+  /********* Main Blog ************/
+  .blog__txt {
+    display: none;
+  }
+  .blog__blogs {
+    display: block;
+  }
+  .blog__post {
+    width: calc(100% - 2rem);
+  }
+  .blog__link {
+    margin-top: -2rem;
+    font-size: 1rem;
+  }
+  /********* End Main ************/
+  /********* Start Footer ************/
+  /********* Footer Flex ************/
+  .footer {
+    margin-top: 4rem;
+  }
+  .footer__flex {
+    display: block;
+  }
+  .footer__title {
+    margin-bottom: 2rem;
+  }
+  .footer__title::after {
+    display: none;
+  }
+  .footer__item {
+    margin-bottom: 1.5rem;
+  }
+  .footer__side {
+    padding-bottom: 5rem;
+    text-align: center;
+  }
+  .footer__side:nth-child(2),
+  .footer__side:nth-child(4) {
+    width: 100%;
+  }
+  .footer__icon {
+    display: none;
+  }
+  .footer__figures {
+    justify-content: center;
+  }
+  .footer__imglink {
+    width: 11rem;
+    height: 11rem;
+  }
+  /********* End Footer ************/
+}
