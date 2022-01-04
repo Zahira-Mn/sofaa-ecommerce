@@ -1,586 +1,740 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,900&display=swap" rel="stylesheet"/>
-        <link href="css/style.css" rel="stylesheet"/>
-        <link rel="stylesheet" href="css/responsive.css">
-        <title>appSofa</title>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <title>appSofa</title>
+  </head>
 
-    <body>
-        <header class="Theader">
-            <div class="container">
-                <div class="Theader__flex">
-                    <span class="Theader__menu">
-                        <i class="fas fa-bars"></i>
-                    </span>
-                    <div class="Theader__logo">
-                        <a href="#" class="Theader__lgtxt">
-                            sofani</a>
-                    </div>
-                    <ul class="Theader__navBar">
-                        <li class="Theader__navItem">
-                            <a href="" class="Theader__link active">home<i class="fas fa-chevron-down Theader__down"></i></a>
-                             <!-- ********** Drop Down List ***********-->
-                            <div class="Theader__home">
-                            <div class="Theader__hiddenhome">
-                                <h3 class="Theader_hidetitle">homepage demos</h3>
-                                <ul class="Theader__list">
-                                    <li class="Theader__elements"><a href="" class="Theader__hidelink">home v1</a></li>
-                                    <li class="Theader__elements"><a href="" class="Theader__hidelink">home v1</a></li>
-                                    <li class="Theader__elements"><a href="" class="Theader__hidelink">home v1</a></li>
-                                    <li class="Theader__elements"><a href="" class="Theader__hidelink">home v1</a></li>
-                                </ul>
-                            </div>
-                            <div class="Theader__hiddenhome">
-                                <h3 class="Theader_hidetitle">homepage demos</h3>
-                                <ul class="Theader__list">
-                                    <li class="Theader__elements"><a href="" class="Theader__hidelink">home v1</a></li>
-                                    <li class="Theader__elements"><a href="" class="Theader__hidelink">home v1</a></li>
-                                    <li class="Theader__elements"><a href="" class="Theader__hidelink">home v1</a></li>
-                                    <li class="Theader__elements"><a href="" class="Theader__hidelink">home v1</a></li>
-                                </ul>
-                            </div>
-                            <div class="Theader__hiddenhome">
-                                <h3 class="Theader_hidetitle">homepage demos</h3>
-                                <ul class="Theader__list">
-                                    <li class="Theader__elements"><a href="" class="Theader__hidelink">home v1</a></li>
-                                    <li class="Theader__elements"><a href="" class="Theader__hidelink">home v1</a></li>
-                                    <li class="Theader__elements"><a href="" class="Theader__hidelink">home v1</a></li>
-                                    <li class="Theader__elements"><a href="" class="Theader__hidelink">home v1</a></li>
-                                </ul>
-                            </div>
-                            <div class="Theader__hiddenhome">
-                                <img src="images/menu-bg1.jpg" alt="" class="Theader__hideimg">
-                            </div>
-                            </div>
-                            <!-- ********** End Drop Down List ***********-->
-                        </li>
-                        <li class="Theader__navItem">
-                            <a href="" class="Theader__link">collection<i class="fas fa-chevron-down Theader__down"></i></a>
-                        </li>
-                        <li class="Theader__navItem">
-                            <a href="" class="Theader__link">fourniture<i class="fas fa-chevron-down Theader__down"></i></a>
-                        </li>
-                        <li class="Theader__navItem">
-                            <a href="" class="Theader__link">pages<i class="fas fa-chevron-down Theader__down"></i></a>
-                        </li>
-                        <li class="Theader__navItem">
-                            <a href="" class="Theader__link">blogs<i class="fas fa-chevron-down Theader__down"></i></a>
-                        </li>
-                        <li class="Theader__navItem">
-                            <a href="" class="Theader__link">services<i class="fas fa-chevron-down Theader__down"></i></a>
-                        </li>
-                    </ul>
-                    <div class="Theader__fav">
-                        <ul class="Theader__items">
-                            <li class="Theader__item Theader__item--input">
-                                <i class="fas fa-search"></i>
-                                <input type="search" class="Theader__search"/>
-                            </li>
-
-                            <li class="Theader__item ">
-                                <i class="fa fa-shopping-basket"></i>
-                            </li>
-                            <li class="Theader__item">
-                                <i class="far fa-heart"></i>
-                            </li>
-                        </ul>
-                    </div>
-                    <span class="Theader__menu2">
-                        <i class="fa fa-shopping-basket"></i>
-                    </span>
+  <body>
+    <header class="Theader">
+      <div class="container">
+        <div class="Theader__flex">
+          <span class="Theader__menu">
+            <i class="fas fa-bars"></i>
+          </span>
+          <div class="Theader__logo">
+            <a href="#" class="Theader__lgtxt"> sofani</a>
+          </div>
+          <ul class="Theader__navBar">
+            <li class="Theader__navItem">
+              <a href="" class="Theader__link active"
+                >home<i class="fas fa-chevron-down Theader__down"></i
+              ></a>
+              <!-- ********** Drop Down List ***********-->
+              <div class="Theader__home">
+                <div class="Theader__hiddenhome">
+                  <h3 class="Theader_hidetitle">homepage demos</h3>
+                  <ul class="Theader__list">
+                    <li class="Theader__elements">
+                      <a href="" class="Theader__hidelink">home v1</a>
+                    </li>
+                    <li class="Theader__elements">
+                      <a href="" class="Theader__hidelink">home v1</a>
+                    </li>
+                    <li class="Theader__elements">
+                      <a href="" class="Theader__hidelink">home v1</a>
+                    </li>
+                    <li class="Theader__elements">
+                      <a href="" class="Theader__hidelink">home v1</a>
+                    </li>
+                  </ul>
                 </div>
+                <div class="Theader__hiddenhome">
+                  <h3 class="Theader_hidetitle">homepage demos</h3>
+                  <ul class="Theader__list">
+                    <li class="Theader__elements">
+                      <a href="" class="Theader__hidelink">home v1</a>
+                    </li>
+                    <li class="Theader__elements">
+                      <a href="" class="Theader__hidelink">home v1</a>
+                    </li>
+                    <li class="Theader__elements">
+                      <a href="" class="Theader__hidelink">home v1</a>
+                    </li>
+                    <li class="Theader__elements">
+                      <a href="" class="Theader__hidelink">home v1</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="Theader__hiddenhome">
+                  <h3 class="Theader_hidetitle">homepage demos</h3>
+                  <ul class="Theader__list">
+                    <li class="Theader__elements">
+                      <a href="" class="Theader__hidelink">home v1</a>
+                    </li>
+                    <li class="Theader__elements">
+                      <a href="" class="Theader__hidelink">home v1</a>
+                    </li>
+                    <li class="Theader__elements">
+                      <a href="" class="Theader__hidelink">home v1</a>
+                    </li>
+                    <li class="Theader__elements">
+                      <a href="" class="Theader__hidelink">home v1</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="Theader__hiddenhome">
+                  <img
+                    src="images/menu-bg1.jpg"
+                    alt=""
+                    class="Theader__hideimg"
+                  />
+                </div>
+              </div>
+              <!-- ********** End Drop Down List ***********-->
+            </li>
+            <li class="Theader__navItem">
+              <a href="" class="Theader__link"
+                >collection<i class="fas fa-chevron-down Theader__down"></i
+              ></a>
+            </li>
+            <li class="Theader__navItem">
+              <a href="" class="Theader__link"
+                >fourniture<i class="fas fa-chevron-down Theader__down"></i
+              ></a>
+            </li>
+            <li class="Theader__navItem">
+              <a href="" class="Theader__link"
+                >pages<i class="fas fa-chevron-down Theader__down"></i
+              ></a>
+            </li>
+            <li class="Theader__navItem">
+              <a href="" class="Theader__link"
+                >blogs<i class="fas fa-chevron-down Theader__down"></i
+              ></a>
+            </li>
+            <li class="Theader__navItem">
+              <a href="" class="Theader__link"
+                >services<i class="fas fa-chevron-down Theader__down"></i
+              ></a>
+            </li>
+          </ul>
+          <div class="Theader__fav">
+            <ul class="Theader__items">
+              <li class="Theader__item Theader__item--input">
+                <i class="fas fa-search"></i>
+                <input type="search" class="Theader__search" />
+              </li>
+
+              <li class="Theader__item">
+                <i class="fa fa-shopping-basket"></i>
+              </li>
+              <li class="Theader__item">
+                <i class="far fa-heart"></i>
+              </li>
+            </ul>
+          </div>
+          <span class="Theader__menu2">
+            <i class="fa fa-shopping-basket"></i>
+          </span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="home">
+        <div class="home__back">
+          <img src="images/slider.jpg" alt="" class="home__image" />
+          <h1 class="home__title">end of season</h1>
+          <div class="home__content">
+            <div class="home__stars">
+              <i class="fas fa-star home__star"></i>
+              <i class="fas fa-star home__star"></i>
+              <i class="fas fa-star home__star"></i>
             </div>
-        </header>
-        <main>
-            <section class="home">
-                <div class="home__back">
-                    <img src="images/slider.jpg" alt="" class="home__image"/>
-                    <h1 class="home__title">end of season</h1>
-                    <div class="home__content">
-                        <div class="home__stars">
-                            <i class="fas fa-star home__star"></i>
-                            <i class="fas fa-star home__star"></i>
-                            <i class="fas fa-star home__star"></i>
-                        </div>
-                        <h3 class="home__subtitle">sale up to 50%</h3>
-                        <p class="home__prg">end of season end of season</p>
-                        <a href="" class="home__link">shop now</a>
-                    </div>
+            <h3 class="home__subtitle">sale up to 50%</h3>
+            <p class="home__prg">end of season end of season</p>
+            <a href="" class="home__link">shop now</a>
+          </div>
+        </div>
+        <div class="home__flex">
+          <div class="home__box">
+            <img src="images/Thumb1.jpg" alt="" class="home__decor" />
+            <h3 class="home__b-title">essential</h3>
+            <h4 class="home__b-subtitle home__b-subtitle--blue">
+              charming light
+            </h4>
+          </div>
+          <div class="home__box">
+            <img src="images/Thumb2.jpg" alt="" class="home__decor" />
+            <h3 class="home__b-title">essential</h3>
+            <h4 class="home__b-subtitle home__b-subtitle--red">
+              charming light
+            </h4>
+          </div>
+          <div class="home__box">
+            <img src="images/Thumb3.jpg" alt="" class="home__decor" />
+            <h3 class="home__b-title">essential</h3>
+            <h4 class="home__b-subtitle home__b-subtitle--yellow">
+              charming light
+            </h4>
+          </div>
+        </div>
+      </section>
+      <section class="offers">
+        <h2 class="G-title">
+          our offers
+          <span></span>
+        </h2>
+        <div class="container">
+          <div class="offers__products">
+            <div class="offers__product">
+              <div class="offers__content">
+                <img src="images/offer1.jpg" alt="" class="offers__image" />
+                <div class="offers__txt">
+                  <h5 class="offers__name">sicily chaire</h5>
+                  <span class="offers__price">$799.00</span>
                 </div>
-                <div class="home__flex">
-                    <div class="home__box">
-                        <img src="images/Thumb1.jpg" alt="" class="home__decor"/>
-                        <h3 class="home__b-title">essential</h3>
-                        <h4 class="home__b-subtitle home__b-subtitle--blue">
-                            charming light
-                        </h4>
-                    </div>
-                    <div class="home__box">
-                        <img src="images/Thumb2.jpg" alt="" class="home__decor"/>
-                        <h3 class="home__b-title">essential</h3>
-                        <h4 class="home__b-subtitle home__b-subtitle--red">
-                            charming light
-                        </h4>
-                    </div>
-                    <div class="home__box">
-                        <img src="images/Thumb3.jpg" alt="" class="home__decor"/>
-                        <h3 class="home__b-title">essential</h3>
-                        <h4 class="home__b-subtitle home__b-subtitle--yellow">
-                            charming light
-                        </h4>
-                    </div>
-                </div>
-            </section>
-            <section class="offers">
-                <h2 class="G-title">
-                    our offers
-                    <span></span>
-                </h2>
-                <div class="container">
-                    <div class="offers__products">
-                        <div class="offers__product">
-                            <div class="offers__content">
-                                <img src="images/offer1.jpg" alt="" class="offers__image"/>
-                                <div class="offers__txt">
-                                    <h5 class="offers__name">sicily chaire</h5>
-                                    <span class="offers__price">$799.00</span>
-                                </div>
-                            </div>
-                            <div class="offers__icons">
-                                <span class="offers__icon">
-                                    <i class="far fa-heart"></i>
-                                </span>
-                                <span class="offers__icon">
-                                    <i class="fas fa-cart-plus"></i>
-                                </span>
-                                <span class="offers__icon">
-                                    <i class="fas fa-search"></i>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="offers__product offers__product--grow">
-                            <div class="offers__content">
-                                <img src="images/offer2.jpg" alt="" class="offers__image"/>
-                                <div class="offers__txt">
-                                    <h5 class="offers__name">scotch sofa</h5>
-                                    <span class="offers__price">$799.00</span>
-                                </div>
-                            </div>
-
-                            <div class="offers__icons">
-                                <span class="offers__icon">
-                                    <i class="far fa-heart"></i>
-                                </span>
-                                <span class="offers__icon">
-                                    <i class="fas fa-cart-plus"></i>
-                                </span>
-                                <span class="offers__icon">
-                                    <i class="fas fa-search"></i>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="offers__product offers__product--grow">
-                            <div class="offers__content">
-                                <img src="images/offer3.jpg" alt="" class="offers__image"/>
-                                <div class="offers__txt">
-                                    <h5 class="offers__name">nefil mech chair</h5>
-                                    <span class="offers__price--old">$455.00</span>
-                                    <span class="offers__price">$499.00</span>
-                                </div>
-                            </div>
-                            <div class="offers__icons">
-                                <span class="offers__icon">
-                                    <i class="far fa-heart"></i>
-                                </span>
-                                <span class="offers__icon">
-                                    <i class="fas fa-cart-plus"></i>
-                                </span>
-                                <span class="offers__icon">
-                                    <i class="fas fa-search"></i>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="offers__product">
-                            <div class="offers__content">
-                                <img src="images/offer4.jpg" alt="" class="offers__image"/>
-                                <div class="offers__txt">
-                                    <h5 class="offers__name">laculis orci sofa</h5>
-                                    <span class="offers__price--old">$769.00</span>
-                                    <span class="offers__price">$810.00</span>
-                                </div>
-                            </div>
-
-                            <div class="offers__icons">
-                                <span class="offers__icon">
-                                    <i class="far fa-heart"></i>
-                                </span>
-                                <span class="offers__icon">
-                                    <i class="fas fa-cart-plus"></i>
-                                </span>
-                                <span class="offers__icon">
-                                    <i class="fas fa-search"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="offers__flex">
-                    <div class="offers__house">
-                        <img src="images/Thumb3.jpg" alt="" class="offers__bg"/>
-                        <a href="#" class="lll">
-                            <h3 class="offers__title">outdoor</h3>
-                        </a>
-                        <span class="offers__animat offers__animat--1"></span>
-                        <span class="offers__animat offers__animat--2"></span>
-                        <span class="offers__animat offers__animat--3"></span>
-                        <span class="offers__animat offers__animat--4"></span>
-                    </div>
-                    <div class="offers__house">
-                        <img src="images/Thumb3.jpg" alt="" class="offers__bg"/>
-                        <a href="#" class="lll">
-                            <h3 class="offers__title">outdoor</h3>
-                        </a>
-                        <span class="offers__animat offers__animat--1"></span>
-                        <span class="offers__animat offers__animat--2"></span>
-                        <span class="offers__animat offers__animat--3"></span>
-                        <span class="offers__animat offers__animat--4"></span>
-                    </div>
-                    <div class="offers__house">
-                        <img src="images/Thumb3.jpg" alt="" class="offers__bg"/>
-                        <a href="#" class="lll">
-                            <h3 class="offers__title">outdoor</h3>
-                        </a>
-                        <span class="offers__animat offers__animat--1"></span>
-                        <span class="offers__animat offers__animat--2"></span>
-                        <span class="offers__animat offers__animat--3"></span>
-                        <span class="offers__animat offers__animat--4"></span>
-                    </div>
-                </div>
-            </section>
-            <section class="offers">
-                <h2 class="G-title">
-                    our offers
-                    <span></span>
-                </h2>
-                <div class="container">
-                    <div class="offers__products">
-                        <div class="offers__product">
-                            <div class="offers__content">
-                                <img src="images/offer1.jpg" alt="" class="offers__image"/>
-                                <div class="offers__txt">
-                                    <h5 class="offers__name">sicily chair</h5>
-                                    <span class="offers__price">$799.00</span>
-                                </div>
-                            </div>
-                            <div class="offers__icons">
-                                <span class="offers__icon"><i class="far fa-heart"></i></span>
-                                <span class="offers__icon"><i class="fas fa-cart-plus"></i></span>
-                                <span class="offers__icon"><i class="fas fa-search"></i></span>
-                            </div>
-                        </div>
-                        <div class="offers__product offers__product--grow">
-                            <div class="offers__content">
-                                <img src="images/offer2_2.jpg" alt="" class="offers__image"/>
-                                <div class="offers__txt">
-                                    <h5 class="offers__name">curabitur non sofa</h5>
-                                    <span class="offers__price">$699.00</span>
-                                </div>
-                            </div>
-
-                            <div class="offers__icons">
-                                <span class="offers__icon">
-                                    <i class="far fa-heart"></i>
-                                </span>
-                                <span class="offers__icon">
-                                    <i class="fas fa-cart-plus"></i>
-                                </span>
-                                <span class="offers__icon">
-                                    <i class="fas fa-search"></i>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="offers__product offers__product--grow">
-                            <div class="offers__content">
-                                <img src="images/offer2_3.jpg" alt="" class="offers__image"/>
-                                <div class="offers__txt">
-                                    <h5 class="offers__name">seattle microfiber sofa</h5>
-                                    <span class="offers__price">$682.00</span>
-                                </div>
-                            </div>
-                            <div class="offers__icons">
-                                <span class="offers__icon"><i class="far fa-heart"></i></span>
-                                <span class="offers__icon"><i class="fas fa-cart-plus"></i></span>
-                                <span class="offers__icon"><i class="fas fa-search"></i></span>
-                            </div>
-                        </div>
-                        <div class="offers__product">
-                            <div class="offers__content">
-                                <img src="images/offer2_4.jpg" alt="" class="offers__image"/>
-                                <div class="offers__txt">
-                                    <h5 class="offers__name">ecko chair - fabric</h5>
-                                    <span class="offers__price">$199.00</span>
-                                </div>
-                            </div>
-
-                            <div class="offers__icons">
-                                <span class="offers__icon"><i class="far fa-heart"></i></span>
-                                <span class="offers__icon"><i class="fas fa-cart-plus"></i></span>
-                                <span class="offers__icon"><i class="fas fa-search"></i></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="offers__flex">
-                    <div class="offers__house">
-                        <img src="images/Thumb3.jpg" alt="" class="offers__bg"/>
-                        <a href="#" class="lll">
-                            <h3 class="offers__title">outdoor</h3>
-                        </a>
-                        <!----link ==========================================================-->
-                        <span class="offers__animat offers__animat--1"></span>
-                        <span class="offers__animat offers__animat--2"></span>
-                        <span class="offers__animat offers__animat--3"></span>
-                        <span class="offers__animat offers__animat--4"></span>
-                    </div>
-                    <div class="offers__house">
-                        <img src="images/Thumb3.jpg" alt="" class="offers__bg"/>
-                        <h3 class="offers__title">outdoor</h3>
-                        <span class="offers__animat offers__animat--1"></span>
-                        <span class="offers__animat offers__animat--2"></span>
-                        <span class="offers__animat offers__animat--3"></span>
-                        <span class="offers__animat offers__animat--4"></span>
-                    </div>
-                    <div class="offers__house">
-                        <img src="images/Thumb3.jpg" alt="" class="offers__bg"/>
-                        <h3 class="offers__title">outdoor</h3>
-                        <span class="offers__animat offers__animat--1"></span>
-                        <span class="offers__animat offers__animat--2"></span>
-                        <span class="offers__animat offers__animat--3"></span>
-                        <span class="offers__animat offers__animat--4"></span>
-                    </div>
-                </div>
-            </section>
-            <section class="architects__flex">
-                <div class="architects">
-                    <img src="images/img.png" alt="" class="architects__img">
-                </div>
-                <div class="architects architects__middel">
-                    <div class="architects__timing">
-                        <ul class="architects__timelist">
-                            <li class="architects__time architects__day">132</li>
-                            <span class="architects__2point">:</span>
-                            <li class="architects__time architects__hours">17</li>
-                            <span class="architects__2point">:</span>
-                            <li class="architects__time architects__minutes">01</li>
-                            <span class="architects__2point">:</span>
-                            <li class="architects__time architects__cesond">12</li>
-                        </ul>
-                        <h1 class="architects__title">run architects</h1>
-                        <h3 class="architects__subtitle">some yummy looking furniture!</h3>
-                        <a href="" class="architects_link">view details</a>
-                    </div>
-                </div>
-                <div class="architects ">
-                    <img src="images/img1.png" alt="" class="architects__img">
-                </div>
-            </section>
-            <section class="blog">
-                <div class="blog__txt">
-                    <h2 class="blog__title">the blog</h2>
-                    <h3 class="blog__subtitle">latest news</h3>
-                </div>
-                <div class="container">
-                    <div class="blog__blogs">
-                        <div class="blog__post">
-                            <img src="images/blog1.jpg" alt="" class="blog__img"/>
-                            <div class="blog__article">
-                                <a href="">
-                                    <h3 class="blog__link">DUIS AUTE IRURE DOLOR IN REPREHENDERIT</h3>
-                                </a>
-                                <p class="blog__admin">
-                                    <a href="">interior popular</a>
-                                    /Admin</p>
-                            </div>
-                            <span class="blog__share">
-                                <i class="far fa-share-square"></i>
-                            </span>
-                        </div>
-                        <div class="blog__post">
-                            <img src="images/blog2.jpg" alt="" class="blog__img"/>
-                            <div class="blog__article">
-                                <a href="">
-                                    <h3 class="blog__link">DUIS AUTE IRURE DOLOR IN REPREHENDERIT</h3>
-                                </a>
-                                <p class="blog__admin">
-                                    <a href="">interior popular</a>
-                                    /Admin</p>
-                            </div>
-                            <span class="blog__share">
-                                <i class="far fa-share-square"></i>
-                            </span>
-                        </div>
-                        <div class="blog__post">
-                            <img src="images/blog3.jpg" alt="" class="blog__img"/>
-                            <div class="blog__article">
-                                <a href="">
-                                    <h3 class="blog__link">DUIS AUTE IRURE DOLOR IN REPREHENDERIT</h3>
-                                </a>
-                                <p class="blog__admin">
-                                    <a href="">interior popular</a>
-                                    /Admin</p>
-                            </div>
-                            <span class="blog__share">
-                                <i class="far fa-share-square"></i>
-                            </span>
-                        </div>
-                        <div class="blog__post">
-                            <img src="images/blog4.jpg" alt="" class="blog__img"/>
-                            <div class="blog__article">
-                                <a href="">
-                                    <h3 class="blog__link">DUIS AUTE IRURE DOLOR IN REPREHENDERIT</h3>
-                                </a>
-                                <p class="blog__admin">
-                                    <a href="">interior popular</a>
-                                    /Admin</p>
-                            </div>
-                            <span class="blog__share">
-                                <i class="far fa-share-square"></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="news">
-                <div class="container">
-                    <div class="news__flex">
-                        <div class="news__details">
-                            <h2 class="news__title">WE ARE SOFANI</h2>
-                            <p class="news__prg">Lorem ipsum dolor sit, 
-                                  amet consectetur adipisicing elit. Atque 
-                                  incidunt reprehenderit praesentium ducimus blanditiis, debitis
-                                   enim autem pariatur saepe perferendis
-                            </p>
-                            <a href="#" class="news__link">DETAILS</a>
-                        </div>
-                        <div class="news__padding">
-                            <div class="news__letter">
-                                <h2 class="news__title1">NEWSLETTER</h2>
-                                <p class="news__prg1">Subscribe for latest stories and promotions</p>
-
-                                <div class="news__form">
-                                    <input type="email" class="news__input" placeholder="Subscribe your email here...">
-                                    <span class="news__icon">
-                                        <i class="far fa-paper-plane"></i>
-                                    </span>
-                                </div>
-                                <input type="submit" value="SUBSCRIBE" class="news__btn">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="shipping">
-                  <div class="shipping__flex">
-                    <div class="shipping__selling">
-                      <div class="shipping__icons">
-                        <a href="#" class="shipping__link shipping__link__one"><i class="fa fa-truck shipping__icon"></i></a>
-                      </div>
-                      <div class="shipping__txt">
-                        <h4 class="shipping__title">free shipping</h4>
-                        <p class="shipping__price">on all order over $15000</p>
-                      </div>
-                    </div>
-                    <div class="shipping__selling">
-                      <div class="shipping__icons">
-                        <a href="#" class="shipping__link shipping__link__two"><i class="fa fa-dollar-sign shipping__icon shipping__icon-middle"></i></a>
-                      </div>
-                      <div class="shipping__txt">
-                        <h4 class="shipping__title">price Promise </h4>
-                        <p class="shipping__price">on all order over $15000</p>
-                      </div>
-                    </div>
-                    <div class="shipping__selling">
-                      <div class="shipping__icons">
-                        <a href="#" class="shipping__link shipping__link__three"><i class="fa fa-trophy shipping__icon"></i></a>
-                      </div>
-                      <div class="shipping__txt">
-                        <h4 class="shipping__title">3 years warranty</h4>
-                        <p class="shipping__price">on all order over $15000</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </section>
-        </main>
-        <footer class="footer">
-            <div class="container">
-                <div class="footer__flex">
-                    <div class="footer__side">
-                        <h3 class="footer__title">CONTACT US</h3>
-                        <ul class="footer__items">
-                            <li class="footer__item">
-                                <i class="fa fa-map-marker footer__icon"></i>123 Sky Tower address name, Los Algeles
-                            </li>
-                            <li class="footer__item">
-                                <i class="fas fa-phone footer__icon"></i>Phone : (012) 345 6789</li>
-                            <li class="footer__item">
-                                <i class="far fa-envelope footer__icon"></i>Email : info@yolotheme.com</li>
-                        </ul>
-                    </div>
-                    <div class="footer__side">
-                        <h3 class="footer__title">PRODUCT TAGS</h3>
-                        <span class="footer__product"><a href="" class="footer__plink">bag</a></span>
-                        <span class="footer__product"><a href="" class="footer__plink">chair</a></span>
-                        <span class="footer__product"><a href="" class="footer__plink">classic</a></span>
-                        <span class="footer__product"><a href="" class="footer__plink">comb</a></span>
-                        <span class="footer__product"><a href="" class="footer__plink">desk</a></span>
-                        <span class="footer__product"><a href="" class="footer__plink">gel</a></span>
-                        <span class="footer__product"><a href="" class="footer__plink">glass</a></span>
-                        <span class="footer__product"><a href="" class="footer__plink">lamp</a></span>
-                        <span class="footer__product"><a href="" class="footer__plink">office</a></span>
-                        <span class="footer__product"><a href="" class="footer__plink">socks</a></span>
-                        <span class="footer__product"><a href="" class="footer__plink">table tiles</a></span>
-                    </div>
-                    <div class="footer__side">
-                        <h3 class="footer__title">My Account</h3>
-                        <ul class="footer__items2">
-                            <li class="footer__item2"><a href="" class="footer__link">My Account</a></li>
-                            <li class="footer__item2"><a href="" class="footer__link">Order History</a></li>
-                            <li class="footer__item2"><a href="" class="footer__link">Wishlist</a></li>
-                            <li class="footer__item2"><a href="" class="footer__link">Newsletter</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="footer__side">
-                        <h3 class="footer__title">collection</h3>
-                        <div class="footer__figures">
-                            <span class="footer__figure"><a href="" class="footer__imglink"><img src="images/footer1.jpg" alt="" class="footer__img"></a></span>
-                            <span class="footer__figure"><a href="" class="footer__imglink"><img src="images/footer2.jpg" alt="" class="footer__img"></a></span>
-                            <span class="footer__figure"><a href="" class="footer__imglink"><img src="images/footer3.jpg" alt="" class="footer__img"></a></span>
-                            <span class="footer__figure"><a href="" class="footer__imglink"><img src="images/footer4.jpg" alt="" class="footer__img"></a></span>
-                            <span class="footer__figure"><a href="" class="footer__imglink"><img src="images/footer5.jpg" alt="" class="footer__img"></a></span>
-                            <span class="footer__figure"><a href="" class="footer__imglink"><img src="images/footer6.jpg" alt="" class="footer__img"></a></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer__middle">
-                    <p class="footer__lastprg">
-                        <span>Company Info   |    Partnership   |    Promotions   |    Customer Service   |    Most Populars   |    Best Sellers   |    New Arrivals   |    Special Products   |    Manufacturers   |    Our Stores</span><br>
-
-                        Most Populars | Best Sellers | New Arrivals | Special Products | Manufacturers | Our Stores | Shipping Payments<br>
-
-                        Online Shopping | Promotions | My Orders | Help Site | Map Customer
-                    </p>
-                </div>
-                <div class="footer__bottom">
-                    <img src="images/payment.png" alt="" class="footer__cardimg">
-                    <p class="footer__copyright">© 2019 Sofani Designed with  by YoloTheme</p>
-                </div>
+              </div>
+              <div class="offers__icons">
+                <span class="offers__icon">
+                  <i class="far fa-heart"></i>
+                </span>
+                <span class="offers__icon">
+                  <i class="fas fa-cart-plus"></i>
+                </span>
+                <span class="offers__icon">
+                  <i class="fas fa-search"></i>
+                </span>
+              </div>
             </div>
-        </footer>
-    </body>
+            <div class="offers__product offers__product--grow">
+              <div class="offers__content">
+                <img src="images/offer2.jpg" alt="" class="offers__image" />
+                <div class="offers__txt">
+                  <h5 class="offers__name">scotch sofa</h5>
+                  <span class="offers__price">$799.00</span>
+                </div>
+              </div>
+
+              <div class="offers__icons">
+                <span class="offers__icon">
+                  <i class="far fa-heart"></i>
+                </span>
+                <span class="offers__icon">
+                  <i class="fas fa-cart-plus"></i>
+                </span>
+                <span class="offers__icon">
+                  <i class="fas fa-search"></i>
+                </span>
+              </div>
+            </div>
+            <div class="offers__product offers__product--grow">
+              <div class="offers__content">
+                <img src="images/offer3.jpg" alt="" class="offers__image" />
+                <div class="offers__txt">
+                  <h5 class="offers__name">nefil mech chair</h5>
+                  <span class="offers__price--old">$455.00</span>
+                  <span class="offers__price">$499.00</span>
+                </div>
+              </div>
+              <div class="offers__icons">
+                <span class="offers__icon">
+                  <i class="far fa-heart"></i>
+                </span>
+                <span class="offers__icon">
+                  <i class="fas fa-cart-plus"></i>
+                </span>
+                <span class="offers__icon">
+                  <i class="fas fa-search"></i>
+                </span>
+              </div>
+            </div>
+            <div class="offers__product">
+              <div class="offers__content">
+                <img src="images/offer4.jpg" alt="" class="offers__image" />
+                <div class="offers__txt">
+                  <h5 class="offers__name">laculis orci sofa</h5>
+                  <span class="offers__price--old">$769.00</span>
+                  <span class="offers__price">$810.00</span>
+                </div>
+              </div>
+
+              <div class="offers__icons">
+                <span class="offers__icon">
+                  <i class="far fa-heart"></i>
+                </span>
+                <span class="offers__icon">
+                  <i class="fas fa-cart-plus"></i>
+                </span>
+                <span class="offers__icon">
+                  <i class="fas fa-search"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="offers__flex">
+          <div class="offers__house">
+            <img src="images/Thumb3.jpg" alt="" class="offers__bg" />
+            <a href="#" class="lll">
+              <h3 class="offers__title">outdoor</h3>
+            </a>
+            <span class="offers__animat offers__animat--1"></span>
+            <span class="offers__animat offers__animat--2"></span>
+            <span class="offers__animat offers__animat--3"></span>
+            <span class="offers__animat offers__animat--4"></span>
+          </div>
+          <div class="offers__house">
+            <img src="images/Thumb3.jpg" alt="" class="offers__bg" />
+            <a href="#" class="lll">
+              <h3 class="offers__title">outdoor</h3>
+            </a>
+            <span class="offers__animat offers__animat--1"></span>
+            <span class="offers__animat offers__animat--2"></span>
+            <span class="offers__animat offers__animat--3"></span>
+            <span class="offers__animat offers__animat--4"></span>
+          </div>
+          <div class="offers__house">
+            <img src="images/Thumb3.jpg" alt="" class="offers__bg" />
+            <a href="#" class="lll">
+              <h3 class="offers__title">outdoor</h3>
+            </a>
+            <span class="offers__animat offers__animat--1"></span>
+            <span class="offers__animat offers__animat--2"></span>
+            <span class="offers__animat offers__animat--3"></span>
+            <span class="offers__animat offers__animat--4"></span>
+          </div>
+        </div>
+      </section>
+      <section class="offers">
+        <h2 class="G-title">
+          our offers
+          <span></span>
+        </h2>
+        <div class="container">
+          <div class="offers__products">
+            <div class="offers__product">
+              <div class="offers__content">
+                <img src="images/offer1.jpg" alt="" class="offers__image" />
+                <div class="offers__txt">
+                  <h5 class="offers__name">sicily chair</h5>
+                  <span class="offers__price">$799.00</span>
+                </div>
+              </div>
+              <div class="offers__icons">
+                <span class="offers__icon"><i class="far fa-heart"></i></span>
+                <span class="offers__icon"
+                  ><i class="fas fa-cart-plus"></i
+                ></span>
+                <span class="offers__icon"><i class="fas fa-search"></i></span>
+              </div>
+            </div>
+            <div class="offers__product offers__product--grow">
+              <div class="offers__content">
+                <img src="images/offer2_2.jpg" alt="" class="offers__image" />
+                <div class="offers__txt">
+                  <h5 class="offers__name">curabitur non sofa</h5>
+                  <span class="offers__price">$699.00</span>
+                </div>
+              </div>
+
+              <div class="offers__icons">
+                <span class="offers__icon">
+                  <i class="far fa-heart"></i>
+                </span>
+                <span class="offers__icon">
+                  <i class="fas fa-cart-plus"></i>
+                </span>
+                <span class="offers__icon">
+                  <i class="fas fa-search"></i>
+                </span>
+              </div>
+            </div>
+            <div class="offers__product offers__product--grow">
+              <div class="offers__content">
+                <img src="images/offer2_3.jpg" alt="" class="offers__image" />
+                <div class="offers__txt">
+                  <h5 class="offers__name">seattle microfiber sofa</h5>
+                  <span class="offers__price">$682.00</span>
+                </div>
+              </div>
+              <div class="offers__icons">
+                <span class="offers__icon"><i class="far fa-heart"></i></span>
+                <span class="offers__icon"
+                  ><i class="fas fa-cart-plus"></i
+                ></span>
+                <span class="offers__icon"><i class="fas fa-search"></i></span>
+              </div>
+            </div>
+            <div class="offers__product">
+              <div class="offers__content">
+                <img src="images/offer2_4.jpg" alt="" class="offers__image" />
+                <div class="offers__txt">
+                  <h5 class="offers__name">ecko chair - fabric</h5>
+                  <span class="offers__price">$199.00</span>
+                </div>
+              </div>
+
+              <div class="offers__icons">
+                <span class="offers__icon"><i class="far fa-heart"></i></span>
+                <span class="offers__icon"
+                  ><i class="fas fa-cart-plus"></i
+                ></span>
+                <span class="offers__icon"><i class="fas fa-search"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="offers__flex">
+          <div class="offers__house">
+            <img src="images/Thumb3.jpg" alt="" class="offers__bg" />
+            <a href="#" class="lll">
+              <h3 class="offers__title">outdoor</h3>
+            </a>
+            <!----link ==========================================================-->
+            <span class="offers__animat offers__animat--1"></span>
+            <span class="offers__animat offers__animat--2"></span>
+            <span class="offers__animat offers__animat--3"></span>
+            <span class="offers__animat offers__animat--4"></span>
+          </div>
+          <div class="offers__house">
+            <img src="images/Thumb3.jpg" alt="" class="offers__bg" />
+            <h3 class="offers__title">outdoor</h3>
+            <span class="offers__animat offers__animat--1"></span>
+            <span class="offers__animat offers__animat--2"></span>
+            <span class="offers__animat offers__animat--3"></span>
+            <span class="offers__animat offers__animat--4"></span>
+          </div>
+          <div class="offers__house">
+            <img src="images/Thumb3.jpg" alt="" class="offers__bg" />
+            <h3 class="offers__title">outdoor</h3>
+            <span class="offers__animat offers__animat--1"></span>
+            <span class="offers__animat offers__animat--2"></span>
+            <span class="offers__animat offers__animat--3"></span>
+            <span class="offers__animat offers__animat--4"></span>
+          </div>
+        </div>
+      </section>
+      <section class="architects__flex">
+        <div class="architects">
+          <img src="images/img.png" alt="" class="architects__img" />
+        </div>
+        <div class="architects architects__middel">
+          <div class="architects__timing">
+            <ul class="architects__timelist">
+              <li class="architects__time architects__day">132</li>
+              <span class="architects__2point">:</span>
+              <li class="architects__time architects__hours">17</li>
+              <span class="architects__2point">:</span>
+              <li class="architects__time architects__minutes">01</li>
+              <span class="architects__2point">:</span>
+              <li class="architects__time architects__cesond">12</li>
+            </ul>
+            <h1 class="architects__title">run architects</h1>
+            <h3 class="architects__subtitle">some yummy looking furniture!</h3>
+            <a href="" class="architects_link">view details</a>
+          </div>
+        </div>
+        <div class="architects">
+          <img src="images/img1.png" alt="" class="architects__img" />
+        </div>
+      </section>
+      <section class="blog">
+        <div class="blog__txt">
+          <h2 class="blog__title">the blog</h2>
+          <h3 class="blog__subtitle">latest news</h3>
+        </div>
+        <div class="container">
+          <div class="blog__blogs">
+            <div class="blog__post">
+              <img src="images/blog1.jpg" alt="" class="blog__img" />
+              <div class="blog__article">
+                <a href="">
+                  <h3 class="blog__link">
+                    DUIS AUTE IRURE DOLOR IN REPREHENDERIT
+                  </h3>
+                </a>
+                <p class="blog__admin">
+                  <a href="">interior popular</a>
+                  /Admin
+                </p>
+              </div>
+              <span class="blog__share">
+                <i class="far fa-share-square"></i>
+              </span>
+            </div>
+            <div class="blog__post">
+              <img src="images/blog2.jpg" alt="" class="blog__img" />
+              <div class="blog__article">
+                <a href="">
+                  <h3 class="blog__link">
+                    DUIS AUTE IRURE DOLOR IN REPREHENDERIT
+                  </h3>
+                </a>
+                <p class="blog__admin">
+                  <a href="">interior popular</a>
+                  /Admin
+                </p>
+              </div>
+              <span class="blog__share">
+                <i class="far fa-share-square"></i>
+              </span>
+            </div>
+            <div class="blog__post">
+              <img src="images/blog3.jpg" alt="" class="blog__img" />
+              <div class="blog__article">
+                <a href="">
+                  <h3 class="blog__link">
+                    DUIS AUTE IRURE DOLOR IN REPREHENDERIT
+                  </h3>
+                </a>
+                <p class="blog__admin">
+                  <a href="">interior popular</a>
+                  /Admin
+                </p>
+              </div>
+              <span class="blog__share">
+                <i class="far fa-share-square"></i>
+              </span>
+            </div>
+            <div class="blog__post">
+              <img src="images/blog4.jpg" alt="" class="blog__img" />
+              <div class="blog__article">
+                <a href="">
+                  <h3 class="blog__link">
+                    DUIS AUTE IRURE DOLOR IN REPREHENDERIT
+                  </h3>
+                </a>
+                <p class="blog__admin">
+                  <a href="">interior popular</a>
+                  /Admin
+                </p>
+              </div>
+              <span class="blog__share">
+                <i class="far fa-share-square"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="news">
+        <div class="container">
+          <div class="news__flex">
+            <div class="news__details">
+              <h2 class="news__title">WE ARE SOFANI</h2>
+              <p class="news__prg">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque
+                incidunt reprehenderit praesentium ducimus blanditiis, debitis
+                enim autem pariatur saepe perferendis
+              </p>
+              <a href="#" class="news__link">DETAILS</a>
+            </div>
+            <div class="news__padding">
+              <div class="news__letter">
+                <h2 class="news__title1">NEWSLETTER</h2>
+                <p class="news__prg1">
+                  Subscribe for latest stories and promotions
+                </p>
+
+                <div class="news__form">
+                  <input
+                    type="email"
+                    class="news__input"
+                    placeholder="Subscribe your email here..."
+                  />
+                  <span class="news__icon">
+                    <i class="far fa-paper-plane"></i>
+                  </span>
+                </div>
+                <input type="submit" value="SUBSCRIBE" class="news__btn" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shipping">
+          <div class="shipping__flex">
+            <div class="shipping__selling">
+              <div class="shipping__icons">
+                <a href="#" class="shipping__link shipping__link__one"
+                  ><i class="fa fa-truck shipping__icon"></i
+                ></a>
+              </div>
+              <div class="shipping__txt">
+                <h4 class="shipping__title">free shipping</h4>
+                <p class="shipping__price">on all order over $15000</p>
+              </div>
+            </div>
+            <div class="shipping__selling">
+              <div class="shipping__icons">
+                <a href="#" class="shipping__link shipping__link__two"
+                  ><i
+                    class="fa fa-dollar-sign shipping__icon shipping__icon-middle"
+                  ></i
+                ></a>
+              </div>
+              <div class="shipping__txt">
+                <h4 class="shipping__title">price Promise</h4>
+                <p class="shipping__price">on all order over $15000</p>
+              </div>
+            </div>
+            <div class="shipping__selling">
+              <div class="shipping__icons">
+                <a href="#" class="shipping__link shipping__link__three"
+                  ><i class="fa fa-trophy shipping__icon"></i
+                ></a>
+              </div>
+              <div class="shipping__txt">
+                <h4 class="shipping__title">3 years warranty</h4>
+                <p class="shipping__price">on all order over $15000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__flex">
+          <div class="footer__side">
+            <h3 class="footer__title">CONTACT US</h3>
+            <ul class="footer__items">
+              <li class="footer__item">
+                <i class="fa fa-map-marker footer__icon"></i>123 Sky Tower
+                address name, Los Algeles
+              </li>
+              <li class="footer__item">
+                <i class="fas fa-phone footer__icon"></i>Phone : (012) 345 6789
+              </li>
+              <li class="footer__item">
+                <i class="far fa-envelope footer__icon"></i>Email :
+                info@yolotheme.com
+              </li>
+            </ul>
+          </div>
+          <div class="footer__side">
+            <h3 class="footer__title">PRODUCT TAGS</h3>
+            <span class="footer__product"
+              ><a href="" class="footer__plink">bag</a></span
+            >
+            <span class="footer__product"
+              ><a href="" class="footer__plink">chair</a></span
+            >
+            <span class="footer__product"
+              ><a href="" class="footer__plink">classic</a></span
+            >
+            <span class="footer__product"
+              ><a href="" class="footer__plink">comb</a></span
+            >
+            <span class="footer__product"
+              ><a href="" class="footer__plink">desk</a></span
+            >
+            <span class="footer__product"
+              ><a href="" class="footer__plink">gel</a></span
+            >
+            <span class="footer__product"
+              ><a href="" class="footer__plink">glass</a></span
+            >
+            <span class="footer__product"
+              ><a href="" class="footer__plink">lamp</a></span
+            >
+            <span class="footer__product"
+              ><a href="" class="footer__plink">office</a></span
+            >
+            <span class="footer__product"
+              ><a href="" class="footer__plink">socks</a></span
+            >
+            <span class="footer__product"
+              ><a href="" class="footer__plink">table tiles</a></span
+            >
+          </div>
+          <div class="footer__side">
+            <h3 class="footer__title">My Account</h3>
+            <ul class="footer__items2">
+              <li class="footer__item2">
+                <a href="" class="footer__link">My Account</a>
+              </li>
+              <li class="footer__item2">
+                <a href="" class="footer__link">Order History</a>
+              </li>
+              <li class="footer__item2">
+                <a href="" class="footer__link">Wishlist</a>
+              </li>
+              <li class="footer__item2">
+                <a href="" class="footer__link">Newsletter</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__side">
+            <h3 class="footer__title">collection</h3>
+            <div class="footer__figures">
+              <span class="footer__figure"
+                ><a href="" class="footer__imglink"
+                  ><img
+                    src="images/footer1.jpg"
+                    alt=""
+                    class="footer__img" /></a
+              ></span>
+              <span class="footer__figure"
+                ><a href="" class="footer__imglink"
+                  ><img
+                    src="images/footer2.jpg"
+                    alt=""
+                    class="footer__img" /></a
+              ></span>
+              <span class="footer__figure"
+                ><a href="" class="footer__imglink"
+                  ><img
+                    src="images/footer3.jpg"
+                    alt=""
+                    class="footer__img" /></a
+              ></span>
+              <span class="footer__figure"
+                ><a href="" class="footer__imglink"
+                  ><img
+                    src="images/footer4.jpg"
+                    alt=""
+                    class="footer__img" /></a
+              ></span>
+              <span class="footer__figure"
+                ><a href="" class="footer__imglink"
+                  ><img
+                    src="images/footer5.jpg"
+                    alt=""
+                    class="footer__img" /></a
+              ></span>
+              <span class="footer__figure"
+                ><a href="" class="footer__imglink"
+                  ><img
+                    src="images/footer6.jpg"
+                    alt=""
+                    class="footer__img" /></a
+              ></span>
+            </div>
+          </div>
+        </div>
+        <div class="footer__middle">
+          <p class="footer__lastprg">
+            <span
+              >Company Info | Partnership | Promotions | Customer Service | Most
+              Populars | Best Sellers | New Arrivals | Special Products |
+              Manufacturers | Our Stores</span
+            ><br />
+
+            Most Populars | Best Sellers | New Arrivals | Special Products |
+            Manufacturers | Our Stores | Shipping Payments<br />
+
+            Online Shopping | Promotions | My Orders | Help Site | Map Customer
+          </p>
+        </div>
+        <div class="footer__bottom">
+          <img src="images/payment.png" alt="" class="footer__cardimg" />
+          <p class="footer__copyright">
+            © 2019 Sofani Designed with by YoloTheme
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
